@@ -8,7 +8,7 @@ jQuery(document).ready(function($){
 			var start = new Date( date ),
 			    now   = new Date(),
 			    diff  = new Date( now - start ),
-			    time  = diff/1000/60/60/24;
+			    time  = diff/1000/60/60/24 + 1;
 
 				var day = parseInt(time);
 				var hour = now.getHours();
