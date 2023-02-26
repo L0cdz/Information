@@ -22,12 +22,12 @@ jQuery(document).ready(function($){
 						min++;
 						sec = 0;
 					}
-					if(min == 60 && sec == 60 && hour!=24 ){
+					if(min == 59 && sec == 60 && hour!=24 ){
 						hour++;
 						min = 0;
 						sec = 0;
 					}
-					if(min == 60 && sec == 60 && hour == 24){
+					if(min == 59 && sec == 60 && hour == 24){
 						day++;
 						hour = 0;
 						min = 0;
