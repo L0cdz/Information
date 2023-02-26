@@ -18,16 +18,16 @@ jQuery(document).ready(function($){
 				counterDate(idWarp,day,hour,min,sec);
 
 				var interval = setInterval(function () {
-					if( sec==59 ){
+					if( sec==60 ){
 						min++;
 						sec = 0;
 					}
-					if(min == 59 && sec == 59 && hour!=23 ){
+					if(min == 60 && sec == 60 && hour!=24 ){
 						hour++;
 						min = 0;
 						sec = 0;
 					}
-					if(min == 59 && sec == 59 && hour == 23){
+					if(min == 60 && sec == 60 && hour == 24){
 						day++;
 						hour = 0;
 						min = 0;
