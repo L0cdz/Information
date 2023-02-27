@@ -63,7 +63,7 @@
   cursor: pointer;
 }
 
-.image .prev {
+/* .image .prev {
   background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronLeft-512.png);
   left: -20px;
 }
@@ -71,7 +71,7 @@
 .image .next {
   background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronRight-512.png);
   right: -20px;
-}
+} */
 
 .image .prev:active,
 .next:active {
