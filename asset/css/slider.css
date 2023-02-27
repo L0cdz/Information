@@ -16,6 +16,7 @@
 
 .image .wrapper {
   overflow: hidden;
+  border-radius: 40px;
 }
 
 #items {
@@ -75,6 +76,10 @@
 .image .prev:active,
 .next:active {
   transform: scale(0.8);
+}
+
+#slider .slide{
+  border-radius: 40px;
 }
 
 @media screen and (min-width:650px) { /*hide mobile menu for desktop*/
