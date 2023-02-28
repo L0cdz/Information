@@ -521,9 +521,9 @@ body :-ms-input-placeholder {
     transform: scale(0.8);
   }
   
-  @media screen and (min-width:650px) { /*hide mobile menu for desktop*/
-    #slider{
-        display:block;
+  @media screen and (min-width:900px) { /*hide mobile menu for desktop*/
+    body {
+        display: none;
     }
   }       
   
