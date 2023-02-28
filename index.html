@@ -12,7 +12,32 @@
 </head>
 
 <body>
-
+<div class="alert">
+	<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+	<strong>Danger!</strong> Trang web đang bảo trì, đừng truy cập vào!
+	<style>
+		.alert {
+		  padding: 20px;
+		  background-color: #f44336;
+		  color: white;
+		}
+		
+		.closebtn {
+		  margin-left: 15px;
+		  color: white;
+		  font-weight: bold;
+		  float: right;
+		  font-size: 22px;
+		  line-height: 20px;
+		  cursor: pointer;
+		  transition: 0.3s;
+		}
+		
+		.closebtn:hover {
+		  color: black;
+		}
+	</style>
+</div>
 <div class="wrapper">
 	<div class="container">
 		<div class="context main">
@@ -69,7 +94,7 @@
 		<link rel="stylesheet" href="./asset/css/slider.css">
 		<script  src="./asset/js/slider.js"></script>
 	</div>
-</div>  
+</div>
 
 <script>window.jQuery || document.write('<script src="asset/js/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="asset/js/jquery.flexslider.js"></script>

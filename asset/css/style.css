@@ -522,14 +522,22 @@ body :-ms-input-placeholder {
   }
   
   @media screen and (min-width:900px) { /*hide mobile menu for desktop*/
-    body {
+    .wrapper {
         display: none;
+    }
+
+    .alert {
+        display: block;
     }
   }       
   
   
-  @media screen and (max-width:650px) { /*show mobile menu for mobile devices*/
+  @media screen and (max-width:900px) { /*show mobile menu for mobile devices*/
     #slider{
         display:none;
+    }
+
+    .alert {
+        display: none;
     }
   }
